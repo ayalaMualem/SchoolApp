@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Teachers>
+	<Teacher Id="1">
+		<Class Name="Class A">
+			<Subject Name="Hebrew"></Subject>
+			<Subject Name="Torah"></Subject>
+			<Subject Name="Yahadut"></Subject>
+			<Subject Name="Mathmatics"></Subject>
+			<Subject Name="Parashat Hashavoa"></Subject>
+		</Class>
+	</Teacher>
+	<Teacher Id="2">
+		<Class Name="Class B">
+			<Subject Name="Tora"></Subject>
+			<Subject Name="Yahadut"></Subject>
+			<Subject Name="Reading Comprehension"></Subject>
+			<Subject Name="Mathmatics"></Subject>
+		</Class>
+	</Teacher>
+	<Teacher Id="3">
+		<Class Name="Class C">
+			<Subject Name="Tora"></Subject>
+			<Subject Name="Yahadut"></Subject>
+			<Subject Name="Parashat Hashavoa"></Subject>
+		</Class>
+	</Teacher>
+	<Teacher Id="4">
+		<Class Name="Class D">
+			<Subject Name="Tora"></Subject>
+			<Subject Name="Yahadut"></Subject>
+		</Class>
+	</Teacher>
+
+	<Teacher Id="5">
+		<Class Name="Class E">
+			<Subject Name="Tora"></Subject>
+			<Subject Name="Yahadut"></Subject>
+		</Class>
+	</Teacher>
+
+	<Teacher Id="6">
+		<Class Name="Class F">
+			<Subject Name="Tora"></Subject>
+			<Subject Name="Yahadut"></Subject>
+		</Class>
+	</Teacher>
+
+	<Teacher Id="7">
+		<Class Name="Class G">
+			<Subject Name="Tora"></Subject>
+			<Subject Name="Yahadut"></Subject>
+			<Subject Name="Dinim"></Subject>
+		</Class>
+	</Teacher>
+
+	<Teacher Id="8">
+		<Class Name="Class H">
+			<Subject Name="Tora"></Subject>
+			<Subject Name="Yahadut"></Subject>
+			<Subject Name="Parashat Hashavoa"></Subject>
+		</Class>
+	</Teacher>
+	<Teacher Id="9">
+		<Class Name="Class C">
+			<Subject Name="Mathmatics"></Subject>
+			<Subject Name="Geometry"></Subject>
+		</Class>
+		<Class Name="Class D">
+			<Subject Name="Mathmatics"></Subject>
+			<Subject Name="Geometry"></Subject>
+		</Class>
+		<Class Name="Class E">
+			<Subject Name="Mathmatics"></Subject>
+		</Class>
+		<Class Name="Class F">
+			<Subject Name="Mathmatics"></Subject>
+		</Class>
+	</Teacher>
+	<Teacher Id="10">
+		<Class Name="Class A">
+			<Subject Name="Mathmatics"></Subject>
+		</Class>
+		<Class Name="Class G">
+			<Subject Name="Mathmatics"></Subject>
+		</Class>
+		<Class Name="Class H">
+			<Subject Name="Mathmatics"></Subject>
+		</Class>
+	</Teacher>
+	<Teacher Id="11">
+		<Class Name="Class C">
+			<Subject Name="English"></Subject>
+		</Class>
+		<Class Name="Class D">
+			<Subject Name="English"></Subject>
+		</Class>
+		<Class Name="Class E">
+			<Subject Name="English"></Subject>
+		</Class>
+		<Class Name="Class F">
+			<Subject Name="English"></Subject>
+		</Class>
+	</Teacher>
+
+	<Teacher Id="12">
+		<Class Name="Class C">
+			<Subject Name="Computers"></Subject>
+		</Class>
+		<Class Name="Class D">
+			<Subject Name="Computers"></Subject>
+		</Class>
+		<Class Name="Class E">
+			<Subject Name="Computers"></Subject>
+		</Class>
+		<Class Name="Class F">
+			<Subject Name="Computers"></Subject>
+		</Class>
+	</Teacher>
+</Teachers>

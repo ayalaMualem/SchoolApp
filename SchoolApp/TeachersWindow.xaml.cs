@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Entities;
+using schoolBL;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -21,11 +23,13 @@ namespace SchoolApp
     {
         public TeachersWindow()
         {
-            DataContext = this;
-            //bl = new bl;
-            //Teachers = bl.GetTeachers();
             InitializeComponent();
+            DataContext = this;
+            schoolBL = new schoolBL.schoolBL();
+            Teachers = schoolBL.GetTeachers();
+
         }
-        //public List<Teacher> Teachers { get; set; }
+        schoolBL.schoolBL schoolBL;
+        public List<Teacher> Teachers { get; set; }
     }
 }

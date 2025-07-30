@@ -9,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using schoolBL;
 
 namespace SchoolApp
 {
@@ -17,6 +18,8 @@ namespace SchoolApp
         public MainWindow()
         {
             InitializeComponent();
+            schoolBL = new schoolBL.schoolBL();
+            schoolBL.FillTablesFromXml();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -30,5 +33,7 @@ namespace SchoolApp
             TeachersWindow teacherWindow = new TeachersWindow();
             teacherWindow.Show();
         }
+        schoolBL.schoolBL schoolBL;
+
     }
 }
